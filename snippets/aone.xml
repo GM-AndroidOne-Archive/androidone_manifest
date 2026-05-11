@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="aone"
+          fetch="https://github.com/GM-AndroidOne-Archive"
+          revision="ten" />
+
+  <!-- General repos -->
+  <project path="build/make" name="build" remote="aone">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+
+  <project path="manifest" name="androidone_manifest" revision="ten" remote="aone" />
+  <project path="vendor/aosp" name="vendor_aosp" revision="ten" remote="aone" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" revision="ten" remote="aone" />
+  <project path="hardware/qcom-caf/msm8952" name="req_hardware_qcom-caf-msm8952" revision="Q" remote="aone" />
+  <project path="device/GM/shamrock" name="device_GM_shamrock" revision="Q" remote="aone" />
+  <project path="vendor/GM/shamrock" name="vendor_GM_shamrock" revision="Q" remote="aone" />
+  <project path="kernel/GM/shamrock" name="kernel_GM_shamrock" revision="Q" remote="aone" />
+
+</manifest>

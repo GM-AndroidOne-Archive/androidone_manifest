@@ -800,4 +800,7 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <!-- Android One Experience extras -->
+  <include name="snippets/aone.xml" />
+
 </manifest>
