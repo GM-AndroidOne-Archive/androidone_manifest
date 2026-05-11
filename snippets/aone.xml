@@ -14,6 +14,7 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
+  </project>
 
   <project path="manifest" name="androidone_manifest" revision="ten" remote="aone" />
   <project path="vendor/aosp" name="vendor_aosp" revision="ten" remote="aone" />
