@@ -1,32 +1,31 @@
-# Pixel Experience #
+# Android One Experience #
 
-### Sync ###
+### Source'u indirme ###
 
 ```bash
 
-# Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b eleven
+repo init --depth=1 -u https://github.com/GM-AndroidOne-Archive/androidone_manifest -b eleven
 
-# Sync
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync
 ```
 
-### Build ###
+### Derleme ###
 
 ```bash
 
-# Set up environment
 $ . build/envsetup.sh
 
-# Choose a target
 $ lunch aosp_$device-userdebug
 
-# Build the code
 $ mka bacon -jX
 ```
+### Neler vaat ediyor? ###
 
-### Submitting Patches ###
+En dogal Android One deneyimini yasayabilmeniz icin tasarlandi. PixelExperience tabanlidir, custom detaylardan arindirilmis ve GM cihazlar icin optimize edilmistir. En iyi sonuc icin GM-AndroidOne-Archive organizasyonundaki kaynaklari kullanmaniz onerilir.
 
-Patches are always welcome! Please submit your patches to our Gerrit.
+Android One Experience 11 destekli cihazlar
 
-[Gerrit push guide](https://wiki.pixelexperience.org/help/submit-patch/)
+* General Mobile GM 8
+* General Mobile GM 9 Pro
+
+Yigit Emre Yanik (yigityanik)
