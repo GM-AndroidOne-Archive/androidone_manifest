@@ -4,7 +4,7 @@
 
 ```bash
 
-repo init --depth=1 -u https://github.com/GM-AndroidOne-Archive/androidone_manifest -b eleven
+repo init --depth=1 -u https://github.com/GM-AndroidOne-Archive/androidone_manifest -b eleven-GM9PRO
 
 repo sync
 ```
