@@ -70,7 +70,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="androidone" />
   <project path="development" name="development" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel" />
   <project path="libcore" name="libcore" remote="pixel" />
