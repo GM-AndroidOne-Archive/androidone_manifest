@@ -11,7 +11,7 @@
 
   <!-- General repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="androidone" />
+  <project path="vendor/aosp" name="vendor_aosp" revision="GM9PRO" remote="androidone" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
 
   <!-- Hardware repos -->
