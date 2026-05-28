@@ -146,4 +146,9 @@
   <!-- Tools Repos -->
   <project path="tools/metalava" name="tools_metalava" remote="pixel" />
 
+  <!-- GM9PRO source -->
+  <project path="device/GM/GM9PRO_sprout" name="device_GM_GM9PRO_sprout" revision="eleven" remote="androidone" />
+  <project path="vendor/GM/GM9PRO_sprout" name="vendor_GM_GM9PRO_sprout" revision="eleven" remote="androidone" />
+  <project path="kernel/GM/GM9PRO_sprout" name="kernel_GM_GM9PRO_sprout" revision="eleven" remote="androidone" />
+
 </manifest>
