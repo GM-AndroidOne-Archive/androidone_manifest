@@ -151,4 +151,7 @@
   <project path="vendor/GM/GM9PRO_sprout" name="vendor_GM_GM9PRO_sprout" revision="eleven" remote="androidone" />
   <project path="kernel/GM/GM9PRO_sprout" name="kernel_GM_GM9PRO_sprout" revision="eleven" remote="androidone" />
 
+  <!-- GM9PRO splash maker -->
+  <project path="aone-tools/splashmaker" name="GM_SplashMaker-release" revision="GM9PRO" remote="androidone" />
+
 </manifest>
