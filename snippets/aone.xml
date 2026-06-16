@@ -25,6 +25,6 @@
   <project path="kernel/GM/shamrock" name="kernel_GM_shamrock" revision="Q" remote="aone" />
 
   <!-- GM5 Plus splash maker -->
-  <project path="aone-tools/splashmaker" name="GM_SplashMaker-release" revision="GM5PLUS" remote="androidone" />
+  <project path="aone-tools/splashmaker" name="GM_SplashMaker-release" revision="GM5PLUS" remote="aone" />
 
 </manifest>
