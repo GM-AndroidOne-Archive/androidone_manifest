@@ -4,7 +4,7 @@
 
 ```bash
 
-repo init --depth=1 -u https://github.com/GM-AndroidOne-Archive/androidone_manifest -b ten
+repo init --depth=1 -u https://github.com/GM-AndroidOne-Archive/androidone_manifest -b ten-GM5PLUS
 
 repo sync
 ```
@@ -15,9 +15,9 @@ repo sync
 
 $ . build/envsetup.sh
 
-$ lunch aosp_$device-userdebug
+$ lunch aosp_shamrock-userdebug
 
-$ mka bacon -jX
+$ make bacon
 ```
 ### Neler vaat ediyor? ###
 
